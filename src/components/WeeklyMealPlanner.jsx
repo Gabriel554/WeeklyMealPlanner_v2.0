@@ -22,7 +22,8 @@ const WeeklyMealPlanner = () => {
     'Chickpea Curry', 'Lentil Soup', 'Black Bean Burgers', 'Turkey Meatloaf',
     'Baked Ziti', 'Pesto Pasta with Chicken', 'Honey Garlic Glazed Salmon',
     'Chicken Fajitas', 'Beef Stroganoff', 'Mushroom Risotto', 'Lamb Chops',
-    'Thai Green Curry', 'Beef Tacos', 'Vegetable Lasagna', 'Garlic Butter Shrimp'
+    'Thai Green Curry', 'Beef Tacos', 'Vegetable Lasagna', 'Garlic Butter Shrimp', 
+    'Chicken Alfredo'
   ];
 
   const getRandomMeal = (options) => {
