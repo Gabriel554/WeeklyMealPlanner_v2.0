@@ -1,6 +1,6 @@
 {
-  "name": "meal-planner",
-  "homepage": "https://username.github.io/WeeklyMealPlanner_v2.0",
+  "name": "WeeklyMealPlanner_v2.1",
+  "homepage": "https://Gabriel554.github.io/WeeklyMealPlanner_v2.1/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.0.0",
